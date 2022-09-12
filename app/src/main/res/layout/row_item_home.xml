@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         tools:text="denemeee"
-        tools:textColor="@color/white" />
+        tools:textColor="@color/black" />
 
 </LinearLayout>

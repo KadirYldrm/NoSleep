@@ -17,14 +17,17 @@ enum class CardHomeData(
             titleResId = "Evening Meditation",
             textColorResId = R.color.grey,
             titleFontResId = R.font.syne),
+
     EVENING1(imgResId = R.drawable.bg_recommended,
             titleResId = "Evening Meditation",
             textColorResId = R.color.grey,
             titleFontResId = R.font.syne),
+
     EVENING2(imgResId = R.drawable.bg_recommended,
             titleResId = "Evening Meditation",
             textColorResId = R.color.grey,
             titleFontResId = R.font.syne),
+
     EVENING3(imgResId = R.drawable.bg_recommended,
             titleResId = "Evening Meditation",
             textColorResId = R.color.grey,

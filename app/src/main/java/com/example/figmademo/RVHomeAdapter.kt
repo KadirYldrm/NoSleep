@@ -23,6 +23,7 @@ class RVHomeAdapter(private val cardList: List<CardHomeData>) : RecyclerView
     }
 
     override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
+
         holder.itemView.apply {
             tvRowItemHome.text = cardList[position].titleResId
             ivRowItemHome.setImageResource(cardList[position].imgResId)

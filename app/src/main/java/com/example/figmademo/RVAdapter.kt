@@ -22,6 +22,7 @@ class RVAdapter(private val cardList: List<CardData>) : RecyclerView.Adapter<RVA
     }
 
     override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
+
         holder.itemView.apply {
 
             tvImprove.text = cardList[position].titleResId

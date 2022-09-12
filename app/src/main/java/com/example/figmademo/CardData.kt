@@ -41,11 +41,11 @@ enum class CardData(
             imgResId = R.drawable.bg_goals,
             bgResId = R.drawable.ic_goals_bg,
             textColorResId = R.color.darkBlue,
-            titleFontResId=R.font.syne_bold),
+            titleFontResId = R.font.syne_bold),
 
     MUSIC(titleResId = "Listen to\n soothing\n music",
             imgResId = R.drawable.bg_music,
             bgResId = R.drawable.ic_music_bg,
             textColorResId = R.color.orange,
-            titleFontResId=R.font.syne_bold)
+            titleFontResId = R.font.syne_bold)
 }
