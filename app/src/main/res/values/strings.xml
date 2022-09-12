@@ -17,4 +17,9 @@
     <string name="complete_the_courses_you_started">Complete the courses you started</string>
     <string name="midnight_meditation">Midnight Meditation</string>
     <string name="evening_meditation">Evening Meditation</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="profile">profile</string>
+    <string name="music">music</string>
+    <string name="sleep">Sleep</string>
 </resources>

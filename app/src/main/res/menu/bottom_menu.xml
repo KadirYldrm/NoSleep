@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_bottom_nav_bg"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/sleep"
+        android:icon="@drawable/ic_sleep_bg"
+        android:title="@string/sleep" />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu_bg"
+        android:title="@string/menu" />
+    <item
+        android:id="@+id/music"
+        android:icon="@drawable/ic_music_bottom_menu"
+        android:title="@string/music" />
+    <item
+        android:id="@+id/aa"
+        android:icon="@drawable/ic_profile_bottom_menu"
+        android:title="@string/profile" />
 </menu>

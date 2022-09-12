@@ -105,7 +105,7 @@
             android:id="@+id/tvRecommendedHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="280dp"
+            android:layout_marginTop="265dp"
             android:layout_marginEnd="149dp"
             android:fontFamily="@font/syne"
             android:text="@string/recommended_for_you"
@@ -127,7 +127,15 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnHomeMain"
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:itemIconTint="@color/bottom_nav_color"
+        android:layout_height="match_parent"
+        app:labelVisibilityMode="selected"
+        app:menu="@menu/bottom_menu" />
 
 
 </LinearLayout>
