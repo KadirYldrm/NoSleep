@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FRLogin">
+
+    <fragment
+        android:id="@+id/FRStarted"
+        android:name="com.example.figmademo.FRStarted"
+        android:label="fr_started"
+        tools:layout="@layout/fr_started" >
+        <action
+            android:id="@+id/action_FRStarted_to_FRChoose"
+            app:destination="@id/FRChoose"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/FRLogin"
+        android:name="com.example.figmademo.FRLogin"
+        android:label="FRLogin" >
+        <action
+            android:id="@+id/action_FRLogin_to_FRStarted2"
+            app:destination="@id/FRStarted"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/FRChoose"
+        android:name="com.example.figmademo.FRChoose"
+        android:label="fr_choose"
+        tools:layout="@layout/fr_choose" >
+        <action
+            android:id="@+id/action_FRChoose_to_FRHome"
+            app:destination="@id/FRHome"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/FRHome"
+        android:name="com.example.figmademo.FRHome"
+        android:label="fr_home"
+        tools:layout="@layout/fr_home" />
+</navigation>

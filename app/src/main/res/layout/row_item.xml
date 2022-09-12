@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llRowItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    tools:background="@drawable/ic_frame_2"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="20dp">
+
+    <TextView
+        android:id="@+id/tvImprove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/improve_text"
+        tools:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivImprove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/_bgimprove" />
+
+</LinearLayout>
+
