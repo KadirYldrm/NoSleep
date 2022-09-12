@@ -6,14 +6,11 @@
     android:background="@color/pink"
     android:orientation="vertical">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvChoose"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:background="@color/pink"
-        tools:context=".FRChoose">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        tools:context=".ui.FRChoose" />
 </LinearLayout>

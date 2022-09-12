@@ -7,18 +7,18 @@
         android:title="@string/home" />
     <item
         android:id="@+id/sleep"
-        android:icon="@drawable/ic_sleep_bg"
+        android:icon="@drawable/ic_bottom_nav_sleep_bg"
         android:title="@string/sleep" />
     <item
         android:id="@+id/menu"
-        android:icon="@drawable/ic_menu_bg"
+        android:icon="@drawable/ic_bottom_nav_menu_bg"
         android:title="@string/menu" />
     <item
         android:id="@+id/music"
-        android:icon="@drawable/ic_music_bottom_menu"
+        android:icon="@drawable/ic_bottom_nav_music_bg"
         android:title="@string/music" />
     <item
         android:id="@+id/aa"
-        android:icon="@drawable/ic_profile_bottom_menu"
+        android:icon="@drawable/ic_bottom_nav_profile_bg"
         android:title="@string/profile" />
 </menu>

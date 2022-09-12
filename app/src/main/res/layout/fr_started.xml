@@ -5,15 +5,14 @@
     android:background="@color/blue">
 
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/blue"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:context=".FRStarted">
+        tools:context=".ui.FRStarted">
 
         <TextView
             android:id="@+id/tvNoSleepFr"
@@ -31,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
-            android:src="@drawable/ic_group_3" />
+            android:src="@drawable/ic_moon" />
 
         <TextView
             android:id="@+id/tvWelcome"
@@ -52,7 +51,7 @@
             android:fontFamily="@font/syne"
             android:gravity="center"
             android:letterSpacing="0.14"
-            android:text="@string/to_nosleep"
+            android:text="@string/to_no_sleep"
             android:textColor="@color/yellow"
             android:textSize="28sp" />
 
@@ -87,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
-                android:src="@drawable/ic_group_6"
+                android:src="@drawable/ic_circle"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -121,7 +120,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="75dp"
                 android:elevation="2dp"
-                android:src="@drawable/ic_group_7"
+                android:src="@drawable/ic_get_started"
                 app:layout_constraintBottom_toBottomOf="@+id/ivStartedCircle"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />

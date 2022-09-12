@@ -1,6 +1,7 @@
-package com.example.figmademo
+package com.example.figmademo.enumtype
 
 import androidx.annotation.*
+import com.example.figmademo.R
 
 enum class CardData(
         val titleResId: String,
@@ -14,8 +15,8 @@ enum class CardData(
         val titleFontResId: Int) {
 
     IMPROVE(titleResId = "Improve Performance\n without cup of coffee",
-            imgResId = R.drawable._bgimprove,
-            bgResId = R.drawable.ic_frame_2,
+            imgResId = R.drawable.bg_improve,
+            bgResId = R.drawable.ic_card__improve_bg,
             textColorResId = R.color.yellow,
             titleFontResId = R.font.syne),
 
@@ -32,8 +33,8 @@ enum class CardData(
             titleFontResId = R.font.syne_bold),
 
     SLEEP(titleResId = "Better Sleep",
-            imgResId = R.drawable.bg_sleep,
-            bgResId = R.drawable.ic_sleep_bg,
+            imgResId = R.drawable.bg_sleep_person,
+            bgResId = R.drawable.bg_sleep,
             textColorResId = R.color.darkBlue,
             titleFontResId = R.font.syne_bold),
 

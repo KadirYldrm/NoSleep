@@ -1,8 +1,9 @@
-package com.example.figmademo
+package com.example.figmademo.enumtype
 
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.annotation.FontRes
+import com.example.figmademo.R
 
 enum class CardHomeData(
         @DrawableRes

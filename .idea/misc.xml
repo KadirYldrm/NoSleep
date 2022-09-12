@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_card__improve_bg.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_frame_2.xml" value="0.2795" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_get_started.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_goals_bg.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_group_1.xml" value="0.283" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_group_10.xml" value="0.283" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_group_11.xml" value="0.283" />
@@ -13,12 +17,20 @@
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_group_6.xml" value="0.283" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_group_7.xml" value="0.283" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_group_9.xml" value="0.283" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_happiness_bg.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_home_bottom_nav_bg.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_home_recent_bg.xml" value="0.168" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_home_recommended_2_bg.xml" value="0.21" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_home_recommended_bg.xml" value="0.168" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_join_google.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_join_mail.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_menu_bg.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_moon.xml" value="0.3" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_music_bg.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_music_bottom_menu.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_polygon_1.xml" value="0.283" />
+        <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_sleep_bg.xml" value="0.3" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_stress_bg.xml" value="0.2875" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/drawable/ic_vector_1.xml" value="0.1635" />
         <entry key="..\:/Users/kadir/AndroidStudioProjects/FigmaDemo/app/src/main/res/layout/ac_login.xml" value="0.1" />

@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/grey"
-        tools:context=".FRLogin">
+        tools:context=".ui.FRLogin">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivVectorBg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_vector_1"
+            android:src="@drawable/ic_login_bg_top"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -48,7 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="17dp"
-                android:src="@drawable/ic_group_3" />
+                android:src="@drawable/ic_moon" />
 
             <TextView
                 android:id="@+id/tvJoinUs"
@@ -77,7 +77,7 @@
             android:id="@+id/ivLoginSittingBlur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/bg_sitting_2"
+            android:src="@drawable/bg_sitting_blur"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/ivLoginSitting" />
@@ -109,14 +109,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/ic_group_2" />
+                android:src="@drawable/ic_join_google" />
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/ivJoinMail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="15dp"
-                android:src="@drawable/ic_group_1" />
+                android:src="@drawable/ic_join_mail" />
 
         </LinearLayout>
 
